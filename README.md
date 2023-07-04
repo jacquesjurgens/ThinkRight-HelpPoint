@@ -1,0 +1,1 @@
+# ThinkRight-HelpPoint
