@@ -1,0 +1,41 @@
+```css
+body {
+    font-family: Arial, sans-serif;
+}
+
+#startButton, #stopButton {
+    margin: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#startButton:hover, #stopButton:hover {
+    background-color: #45a049;
+}
+
+#instructionInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+#highlightCheckbox {
+    margin: 10px;
+}
+
+.highlighted-element {
+    outline: 2px solid blue;
+    background-color: rgba(0, 0, 255, 0.1);
+}
+```
